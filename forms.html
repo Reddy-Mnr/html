@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>forms</title>
+  </head>
+  <body>
+    <h1>creating a form</h1>
 
-</head>
-<body>
-    <h1>creating form</h1>
-    Name:<input type="text"><br><br>
-    Email:<input type="email"><br><br>
-    phone no:<input type="text"><br><br>
-    Birth:<input type="dob"><br><br>
-    <button type="submit">submit</button>
+    <form action="">
+      Name:<input type="text" placeholder="Enter Your Name" /><br /><br />
+      Email:<input type="email" placeholder="Enter Your Emil" /><br /><br />
+      phone no:<input type="text" placeholder="Enter Your Number" /><br /><br />
+      Birth:<input type="date" /><br /><br />
+      Time: <input type="time" name="" id="" /><br /><br />
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label><br /><br />
+      <input type="checkbox" name="" id="" /> <label for="">HTML</label>
+      <input type="checkbox" name="" id="" /> <label for="">CSS</label>
+      <input type="checkbox" /> <label for="">Js</label>
+      <input type="color" name="" id="" /><br /><br />
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Enter Something"
+      ></textarea
+      ><br /><br />
+      <section>
+        <option value="html">html</option>
+        <option value="css">css</option>
+        <option value="js">js</option>
+      </section>
 
-    
-
-
-</body>
+      <button type="submit">submit</button>
+    </form>
+  </body>
 </html>
