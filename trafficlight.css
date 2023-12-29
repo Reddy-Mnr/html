@@ -5,6 +5,12 @@ body
     align-items: center;
     height: 100vh;
     background-color: grey;
+    flex-direction: column;
+
+}
+h1 
+{
+    background-color: red;
 }
 .pole
 {
